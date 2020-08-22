@@ -5,18 +5,18 @@
     "./node_modules/React/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\React\\index.js\n    Used by 2 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\packages\\american-sign-theme\\src\\Theme\\index.js\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\react\\index.js\n    Used by 70 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\@frontity\\core\\src\\client\\index.tsx\n @ ./node_modules/React/index.js\n @ ./packages/american-sign-theme/src/Theme/index.js\n @ ./packages/american-sign-theme/src/index.js\n @ ./build/bundling/entry-points/american-sign/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/american-sign/client.ts"
   ],
   "version": "4.44.1",
-  "hash": "4ca68fa7a6eb25b9fa4b",
+  "hash": "46c134c627ea2ed0803b",
   "publicPath": "/static/",
   "outputPath": "D:\\emman\\Documents\\spaceshiplabs\\american-sign\\build\\static",
   "assetsByChunkName": {
     "american-sign": [
       "american-sign.module.js",
-      "american-sign.03c3c2201b14cef1b377.hot-update.js"
+      "american-sign.830fe9fbe3d931e47ea0.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "03c3c2201b14cef1b377.hot-update.json",
+      "name": "830fe9fbe3d931e47ea0.hot-update.json",
       "size": 55,
       "chunks": [],
       "chunkNames": [],
@@ -27,8 +27,8 @@
       "emitted": false
     },
     {
-      "name": "american-sign.03c3c2201b14cef1b377.hot-update.js",
-      "size": 5655,
+      "name": "american-sign.830fe9fbe3d931e47ea0.hot-update.js",
+      "size": 17579,
       "chunks": [
         "american-sign"
       ],
@@ -43,13 +43,77 @@
     },
     {
       "name": "american-sign.module.js",
-      "size": 7559179,
+      "size": 7589788,
       "chunks": [
         "american-sign"
       ],
       "chunkNames": [
         "american-sign"
       ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Aplicaciones.jpg",
+      "size": 39243,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/CajaDeluz.jpg",
+      "size": 46850,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Corte-Laser.jpg",
+      "size": 88411,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/DecoPrint.jpg",
+      "size": 59809,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Displays.jpg",
+      "size": 21260,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/G&C.jpg",
+      "size": 66522,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Impresion-Digital.jpg",
+      "size": 32717,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Senalizacion.jpg",
+      "size": 43956,
+      "chunks": [],
+      "chunkNames": [],
       "info": {},
       "emitted": false
     },
@@ -78,7 +142,7 @@
       ],
       "assets": [
         "american-sign.module.js",
-        "american-sign.03c3c2201b14cef1b377.hot-update.js"
+        "american-sign.830fe9fbe3d931e47ea0.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -91,7 +155,7 @@
       ],
       "assets": [
         "american-sign.module.js",
-        "american-sign.03c3c2201b14cef1b377.hot-update.js"
+        "american-sign.830fe9fbe3d931e47ea0.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
