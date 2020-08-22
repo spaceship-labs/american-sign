@@ -7,6 +7,7 @@ const Theme = () => (
   <>
     <Global styles={globalStyles} />
     <Header />
+    <Home />
   </>
 );
 
@@ -15,6 +16,11 @@ export default connect(Theme);
 const globalStyles = css`
   body {
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", Open Sans Light, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff)
+      format("woff");
+    background-color: #ebeded;
   }
 `;
