@@ -4,6 +4,8 @@ import Slide from "../../components/slide";
 import ServiceCard from "../../components/card/service";
 import ShippingBar from "../../components/shippingbar";
 import Banner from "../../components/banner";
+import ClientsBar from "../../components/clientsbar";
+import Signaling from "../../components/signaling";
 import rotulacion from "../../assets/images/home/camionetas-2.jpg";
 import impresionDigital from "../../assets/images/home/Impresion-Digital.jpg";
 import senalizacion from "../../assets/images/home/Senalizacion.jpg";
@@ -63,6 +65,8 @@ const Home = () => (
     </ServicesContainer>
     <ShippingBar />
     <Banner />
+    <ClientsBar />
+    <Signaling />
   </div>
 );
 
