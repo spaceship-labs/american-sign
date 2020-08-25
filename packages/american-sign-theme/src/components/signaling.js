@@ -16,7 +16,7 @@ const Signaling = () => (
           requeridas y brindarle tranquilidad mientras reanudas las operaciones
           comerciales.
         </p>
-        <Button name="DESCARGAR CATÁLOGO" />
+        <Button name="DESCARGAR CATÁLOGO" style={{ marginTop: 40 }} />
       </div>
     </Container>
     <Container>
@@ -49,11 +49,15 @@ const Container = styled.div`
     & > h2 {
       text-transform: uppercase;
       font-size: 35px;
-      line-height: 10px;
+      @media only screen and (min-width: 800px) {
+        line-height: 10px;
+      }
     }
     & > p {
       font-size: 16px;
-      line-height: 4px;
+      @media only screen and (min-width: 800px) {
+        line-height: 4px;
+      }
     }
   }
 `;

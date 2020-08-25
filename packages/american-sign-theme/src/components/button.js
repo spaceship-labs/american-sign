@@ -16,4 +16,6 @@ const Wrapper = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
+  align-items: center;
+  justify-content: center;
 `;

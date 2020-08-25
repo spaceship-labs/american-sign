@@ -19,7 +19,9 @@ const clientsLogos = [
 const ClientsBar = () => (
   <Container>
     {clientsLogos.map(([logo, alt], index) => (
-      <img key={index} src={logo} alt={alt} />
+      <div key={index}>
+        <img src={logo} alt={alt} />
+      </div>
     ))}
   </Container>
 );
@@ -27,13 +29,19 @@ const ClientsBar = () => (
 export default ClientsBar;
 
 const Container = styled.div`
-  height: 200px;
-  background-color: #000;
-  color: #fff;
   display: flex;
+  background-color: #000;
+  height: 200px;
   flex-direction: row;
-  & > img {
+  flex: 1;
+  justify-content: space-around;
+  & > div {
+    display: flex;
     /* flex: 1; */
-    width: 20px;
+    align-items: center;
+    justify-content: center;
+    & > img {
+      width: 50%;
+    }
   }
 `;

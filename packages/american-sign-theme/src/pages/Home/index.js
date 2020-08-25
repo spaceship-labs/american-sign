@@ -6,6 +6,7 @@ import ShippingBar from "../../components/shippingbar";
 import Banner from "../../components/banner";
 import ClientsBar from "../../components/clientsbar";
 import Signaling from "../../components/signaling";
+import GalleryBar from "../../components/gallerybar";
 import rotulacion from "../../assets/images/home/camionetas-2.jpg";
 import impresionDigital from "../../assets/images/home/Impresion-Digital.jpg";
 import senalizacion from "../../assets/images/home/Senalizacion.jpg";
@@ -65,6 +66,7 @@ const Home = () => (
     </ServicesContainer>
     <ShippingBar />
     <Banner />
+    <GalleryBar />
     <ClientsBar />
     <Signaling />
   </div>
