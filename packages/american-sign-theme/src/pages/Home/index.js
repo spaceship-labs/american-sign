@@ -62,6 +62,7 @@ const Home = () => (
       ))}
     </ServicesContainer>
     <ShippingBar />
+    <Banner />
   </div>
 );
 

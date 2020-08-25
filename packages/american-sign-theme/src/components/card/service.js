@@ -69,4 +69,5 @@ const Button = styled.button`
   border-color: #ffffff;
   outline: none;
   cursor: pointer;
+  text-transform: uppercase;
 `;

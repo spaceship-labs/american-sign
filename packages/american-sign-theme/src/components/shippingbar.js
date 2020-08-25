@@ -76,7 +76,7 @@ const Container = styled.div`
   flex: 1;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 15px 50px;
+  margin: 25px 50px;
 `;
 
 const ItemContainer = styled.div`
@@ -94,9 +94,6 @@ const ItemContainer = styled.div`
 `;
 
 const Circle = styled.div`
-  /* height: 70px; */
-  /* width: 70px; */
-
   border-radius: 50%;
   color: #fff;
   display: flex;
