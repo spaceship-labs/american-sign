@@ -2,6 +2,8 @@ import React from "react";
 import { styled } from "frontity";
 import Slide from "../../components/slide";
 import ServiceCard from "../../components/card/service";
+import ShippingBar from "../../components/shippingbar";
+import Banner from "../../components/banner";
 import rotulacion from "../../assets/images/home/camionetas-2.jpg";
 import impresionDigital from "../../assets/images/home/Impresion-Digital.jpg";
 import senalizacion from "../../assets/images/home/Senalizacion.jpg";
@@ -59,6 +61,7 @@ const Home = () => (
         <ServiceCard key={index} title={title} src={src} />
       ))}
     </ServicesContainer>
+    <ShippingBar />
   </div>
 );
 

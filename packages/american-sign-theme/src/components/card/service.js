@@ -51,7 +51,6 @@ const Content = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  cursor: pointer;
   position: relative;
   display: block;
   height: 100%;
