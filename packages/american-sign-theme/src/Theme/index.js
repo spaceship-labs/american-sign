@@ -2,12 +2,14 @@ import React from "React";
 import { Global, css, connect, styled, Head } from "frontity";
 import Home from "../pages/Home";
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const Theme = () => (
   <>
     <Global styles={globalStyles} />
     <Header />
     <Home />
+    <Footer />
   </>
 );
 
