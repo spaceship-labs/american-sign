@@ -2,22 +2,22 @@
   "errors": [],
   "warnings": [
     "./node_modules/React/cjs/react.development.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\React\\cjs\\react.development.js\n    Used by 1 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\React\\index.js\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\react\\cjs\\react.development.js\n    Used by 1 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\react\\index.js\n @ ./node_modules/React/cjs/react.development.js\n @ ./node_modules/React/index.js\n @ ./packages/american-sign-theme/src/Theme/index.js\n @ ./packages/american-sign-theme/src/index.js\n @ ./build/bundling/entry-points/american-sign/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/american-sign/client.ts",
-    "./node_modules/React/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\React\\index.js\n    Used by 2 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\packages\\american-sign-theme\\src\\Theme\\index.js\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\react\\index.js\n    Used by 78 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\@frontity\\core\\src\\client\\index.tsx\n @ ./node_modules/React/index.js\n @ ./packages/american-sign-theme/src/Theme/index.js\n @ ./packages/american-sign-theme/src/index.js\n @ ./build/bundling/entry-points/american-sign/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/american-sign/client.ts",
+    "./node_modules/React/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\React\\index.js\n    Used by 2 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\packages\\american-sign-theme\\src\\Theme\\index.js\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\react\\index.js\n    Used by 79 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\@frontity\\core\\src\\client\\index.tsx\n @ ./node_modules/React/index.js\n @ ./packages/american-sign-theme/src/Theme/index.js\n @ ./packages/american-sign-theme/src/index.js\n @ ./build/bundling/entry-points/american-sign/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/american-sign/client.ts",
     "Conflict: Multiple assets emit different content to the same filename images/Envios.svg"
   ],
   "version": "4.44.1",
-  "hash": "29427aa0034c3030234e",
+  "hash": "17743a81965cc16daa5e",
   "publicPath": "/static/",
   "outputPath": "D:\\emman\\Documents\\spaceshiplabs\\american-sign\\build\\static",
   "assetsByChunkName": {
     "american-sign": [
       "american-sign.module.js",
-      "american-sign.6246ca91e4a6f97e1d3d.hot-update.js"
+      "american-sign.3e2c5aaffd0f7812809f.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "6246ca91e4a6f97e1d3d.hot-update.json",
+      "name": "3e2c5aaffd0f7812809f.hot-update.json",
       "size": 55,
       "chunks": [],
       "chunkNames": [],
@@ -28,8 +28,8 @@
       "emitted": false
     },
     {
-      "name": "american-sign.6246ca91e4a6f97e1d3d.hot-update.js",
-      "size": 44361,
+      "name": "american-sign.3e2c5aaffd0f7812809f.hot-update.js",
+      "size": 9017,
       "chunks": [
         "american-sign"
       ],
@@ -44,13 +44,21 @@
     },
     {
       "name": "american-sign.module.js",
-      "size": 7759339,
+      "size": 7771582,
       "chunks": [
         "american-sign"
       ],
       "chunkNames": [
         "american-sign"
       ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/03.jpg",
+      "size": 113063,
+      "chunks": [],
+      "chunkNames": [],
       "info": {},
       "emitted": false
     },
@@ -295,7 +303,7 @@
       ],
       "assets": [
         "american-sign.module.js",
-        "american-sign.6246ca91e4a6f97e1d3d.hot-update.js"
+        "american-sign.3e2c5aaffd0f7812809f.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -308,7 +316,7 @@
       ],
       "assets": [
         "american-sign.module.js",
-        "american-sign.6246ca91e4a6f97e1d3d.hot-update.js"
+        "american-sign.3e2c5aaffd0f7812809f.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
