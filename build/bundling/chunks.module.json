@@ -2,21 +2,22 @@
   "errors": [],
   "warnings": [
     "./node_modules/React/cjs/react.development.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\React\\cjs\\react.development.js\n    Used by 1 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\React\\index.js\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\react\\cjs\\react.development.js\n    Used by 1 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\react\\index.js\n @ ./node_modules/React/cjs/react.development.js\n @ ./node_modules/React/index.js\n @ ./packages/american-sign-theme/src/Theme/index.js\n @ ./packages/american-sign-theme/src/index.js\n @ ./build/bundling/entry-points/american-sign/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/american-sign/client.ts",
-    "./node_modules/React/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\React\\index.js\n    Used by 2 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\packages\\american-sign-theme\\src\\Theme\\index.js\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\react\\index.js\n    Used by 76 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\@frontity\\core\\src\\client\\index.tsx\n @ ./node_modules/React/index.js\n @ ./packages/american-sign-theme/src/Theme/index.js\n @ ./packages/american-sign-theme/src/index.js\n @ ./build/bundling/entry-points/american-sign/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/american-sign/client.ts"
+    "./node_modules/React/index.js\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\React\\index.js\n    Used by 2 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\packages\\american-sign-theme\\src\\Theme\\index.js\n* D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\react\\index.js\n    Used by 78 module(s), i. e.\n    D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\emman\\Documents\\spaceshiplabs\\american-sign\\node_modules\\@frontity\\core\\src\\client\\index.tsx\n @ ./node_modules/React/index.js\n @ ./packages/american-sign-theme/src/Theme/index.js\n @ ./packages/american-sign-theme/src/index.js\n @ ./build/bundling/entry-points/american-sign/client.ts\n @ multi webpack-hot-middleware/client ./build/bundling/entry-points/american-sign/client.ts",
+    "Conflict: Multiple assets emit different content to the same filename images/Envios.svg"
   ],
   "version": "4.44.1",
-  "hash": "76f43416886c4c538cfc",
+  "hash": "29427aa0034c3030234e",
   "publicPath": "/static/",
   "outputPath": "D:\\emman\\Documents\\spaceshiplabs\\american-sign\\build\\static",
   "assetsByChunkName": {
     "american-sign": [
       "american-sign.module.js",
-      "american-sign.168f6b7b4874aa66005e.hot-update.js"
+      "american-sign.6246ca91e4a6f97e1d3d.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "168f6b7b4874aa66005e.hot-update.json",
+      "name": "6246ca91e4a6f97e1d3d.hot-update.json",
       "size": 55,
       "chunks": [],
       "chunkNames": [],
@@ -27,8 +28,8 @@
       "emitted": false
     },
     {
-      "name": "american-sign.168f6b7b4874aa66005e.hot-update.js",
-      "size": 5452,
+      "name": "american-sign.6246ca91e4a6f97e1d3d.hot-update.js",
+      "size": 44361,
       "chunks": [
         "american-sign"
       ],
@@ -43,7 +44,7 @@
     },
     {
       "name": "american-sign.module.js",
-      "size": 7707432,
+      "size": 7759339,
       "chunks": [
         "american-sign"
       ],
@@ -110,6 +111,14 @@
       "emitted": false
     },
     {
+      "name": "images/EcoGreen.svg",
+      "size": 5905,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
       "name": "images/Entrega.svg",
       "size": 2512,
       "chunks": [],
@@ -144,6 +153,14 @@
     {
       "name": "images/G&C.jpg",
       "size": 66522,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Garantia.svg",
+      "size": 2581,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -192,6 +209,14 @@
     {
       "name": "images/Loreal.svg",
       "size": 3205,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Personal.svg",
+      "size": 1849,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -270,7 +295,7 @@
       ],
       "assets": [
         "american-sign.module.js",
-        "american-sign.168f6b7b4874aa66005e.hot-update.js"
+        "american-sign.6246ca91e4a6f97e1d3d.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -283,7 +308,7 @@
       ],
       "assets": [
         "american-sign.module.js",
-        "american-sign.168f6b7b4874aa66005e.hot-update.js"
+        "american-sign.6246ca91e4a6f97e1d3d.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

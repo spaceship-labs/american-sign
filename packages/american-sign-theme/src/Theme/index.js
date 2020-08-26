@@ -3,12 +3,13 @@ import { Global, css, connect, styled, Head } from "frontity";
 import Home from "../pages/Home";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import AboutUs from "../pages/AboutUs";
 
 const Theme = () => (
   <>
     <Global styles={globalStyles} />
     <Header />
-    <Home />
+    <AboutUs />
     <Footer />
   </>
 );
