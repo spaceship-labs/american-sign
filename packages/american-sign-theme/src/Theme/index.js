@@ -5,16 +5,9 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import AboutUs from "../pages/AboutUs";
 
-const Theme = () => (
-  <>
-    <Global styles={globalStyles} />
-    <Header />
-    <AboutUs />
-    <Footer />
-  </>
-);
+const Theme = () => <div>holi</div>;
 
-export default connect(Theme);
+export default Theme;
 
 const globalStyles = css`
   body {

@@ -1,7 +1,7 @@
 import React from "react";
 import { styled } from "frontity";
 import Button from "../components/button";
-import Catalogo from "../assets/images/home/Catalogo.jpg";
+// import Catalogo from "../assets/images/home/Catalogo.jpg";
 
 const Signaling = () => (
   <MainContainer>

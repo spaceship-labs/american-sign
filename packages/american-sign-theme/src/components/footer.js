@@ -1,9 +1,9 @@
 import React from "react";
 import { styled } from "frontity";
-import Isotype from "../assets/footer/Isotipo.svg";
-import Facebook from "../assets/footer/Facebook.svg";
-import Instagram from "../assets/footer/Instagram.svg";
-import YouTube from "../assets/footer/YouTube.svg";
+// import Isotype from "../assets/footer/Isotipo.svg";
+// import Facebook from "../assets/footer/Facebook.svg";
+// import Instagram from "../assets/footer/Instagram.svg";
+// import YouTube from "../assets/footer/YouTube.svg";
 
 const socialMediaLogos = [Facebook, Instagram, YouTube];
 

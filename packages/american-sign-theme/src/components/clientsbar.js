@@ -1,11 +1,11 @@
 import React from "react";
 import { styled } from "frontity";
-import Asur from "../assets/home/Asur.svg";
-import Xcaret from "../assets/home/Xcaret.svg";
-import Ultrafemme from "../assets/images/home/Ultrafemme.png";
-import Mayakoba from "../assets/images/home/mayakoba.png";
-import Ultramar from "../assets/images/home/ultramarlogo.png";
-import Loreal from "../assets/home/Loreal.svg";
+// import Asur from "../assets/home/Asur.svg";
+// import Xcaret from "../assets/home/Xcaret.svg";
+// import Ultrafemme from "../assets/images/home/Ultrafemme.png";
+// import Mayakoba from "../assets/images/home/mayakoba.png";
+// import Ultramar from "../assets/images/home/ultramarlogo.png";
+// import Loreal from "../assets/home/Loreal.svg";
 
 const clientsLogos = [
   [Asur, "Asur"],

@@ -1,7 +1,7 @@
 import React from "react";
 import { connect, styled } from "frontity";
 import Nav from "../components/nav";
-import Logo from "../assets/header/americansign-logo.svg";
+// import Logo from "../assets/header/americansign-logo.svg";
 
 const Header = () => (
   <Container>

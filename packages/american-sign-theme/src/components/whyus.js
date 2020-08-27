@@ -1,9 +1,9 @@
 import React from "react";
 import { styled } from "frontity";
-import Guarantee from "../assets/about/Garantia.svg";
-import Personal from "../assets/about/Personal.svg";
-import Envios from "../assets/about/Envios.svg";
-import EcoGreen from "../assets/about/EcoGreen.svg";
+// import Guarantee from "../assets/about/Garantia.svg";
+// import Personal from "../assets/about/Personal.svg";
+// import Envios from "../assets/about/Envios.svg";
+// import EcoGreen from "../assets/about/EcoGreen.svg";
 
 const items = [
   {

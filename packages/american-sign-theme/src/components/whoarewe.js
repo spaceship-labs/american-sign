@@ -1,6 +1,6 @@
 import React from "react";
 import { styled } from "frontity";
-import Building from "../assets/images/about/03.jpg";
+// import Building from "../assets/images/about/03.jpg";
 
 const WhoAreWe = () => (
   <Container>

@@ -3,12 +3,14 @@ import { styled } from "frontity";
 import Slide from "../../components/slide";
 import WhyUs from "../../components/whyus";
 import WhoAreWe from "../../components/whoarewe";
+import CertificationsBar from "../../components/certifications";
 
 const AboutUs = () => (
   <Main>
     <Slide />
     <WhyUs />
     <WhoAreWe />
+    <CertificationsBar />
   </Main>
 );
 

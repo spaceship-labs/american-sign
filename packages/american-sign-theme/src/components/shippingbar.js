@@ -1,21 +1,21 @@
 import React from "react";
 import { styled } from "frontity";
-import ShippingFast from "../assets/home/Envios.svg";
-import Payment from "../assets/home/FacilidadPago.svg";
-import Installation from "../assets/home/Instalacion.svg";
-import Delivery from "../assets/home/Entrega.svg";
+// import ShippingFast from "../assets/home/Envios.svg";
+// import Payment from "../assets/home/FacilidadPago.svg";
+// import Installation from "../assets/home/Instalacion.svg";
+// import Delivery from "../assets/home/Entrega.svg";
 
 const items = [
-  {
-    imgAttributes: [ShippingFast, "Envíos"],
-    title: "Envíos",
-    Content: () => (
-      <TextContainer>
-        <p>Envíos a toda la República</p>
-        <p>Mexicana y el mundo.</p>
-      </TextContainer>
-    ),
-  },
+  // {
+  //   imgAttributes: [ShippingFast, "Envíos"],
+  //   title: "Envíos",
+  //   Content: () => (
+  //     <TextContainer>
+  //       <p>Envíos a toda la República</p>
+  //       <p>Mexicana y el mundo.</p>
+  //     </TextContainer>
+  //   ),
+  // },
   {
     imgAttributes: [Payment, "Facilidad Pago"],
     title: "Facilidades de pago",

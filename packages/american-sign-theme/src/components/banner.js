@@ -1,6 +1,6 @@
 import React from "react";
 import { styled } from "frontity";
-import HPWall from "../assets/images/home/HP-Wallart.jpg";
+// import HPWall from "../assets/images/home/HP-Wallart.jpg";
 import Button from "./button";
 
 const Banner = () => (

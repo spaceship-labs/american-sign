@@ -3,20 +3,21 @@ const settings = {
   state: {
     frontity: {
       url: "https://test.frontity.org",
-      title: "American Sign",
+      title: "Test Frontity Blog",
       description: "WordPress installation for Frontity development",
     },
   },
   packages: [
     {
-      name: "american-sign-theme",
+      name: "americansign-theme",
       state: {
         theme: {
           menu: [
-            ["home", "/"],
-            ["acerca", "/about-us"],
-            ["servicios", "/services"],
-            ["contacto", "/contact"],
+            ["Home", "/"],
+            ["Nature", "/category/nature/"],
+            ["Travel", "/category/travel/"],
+            ["Japan", "/tag/japan/"],
+            ["About Us", "/about-us/"],
           ],
           featured: {
             showOnList: false,
@@ -29,7 +30,9 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "https://test.frontity.org/wp-json",
+          // api: "https://test.frontity.org/wp-json",
+          api:
+            "http://www.adminamericansign.com.php72-4.phx1-1.websitetestlink.com/wp-json",
         },
       },
     },
