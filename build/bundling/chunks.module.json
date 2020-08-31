@@ -1,0 +1,67 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.1",
+  "hash": "2112f11f0ade2d8c87cb",
+  "publicPath": "/static/",
+  "outputPath": "D:\\emman\\Documents\\spaceshiplabs\\american-sign\\build\\static",
+  "assetsByChunkName": {
+    "american-sign": "american-sign.module.js"
+  },
+  "assets": [
+    {
+      "name": "american-sign.module.js",
+      "size": 7314124,
+      "chunks": [
+        "american-sign"
+      ],
+      "chunkNames": [
+        "american-sign"
+      ],
+      "info": {},
+      "emitted": true,
+      "isOverSizeLimit": true
+    },
+    {
+      "name": "images/americansign-logo.svg",
+      "size": 15944,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "american-sign": {
+      "chunks": [
+        "american-sign"
+      ],
+      "assets": [
+        "american-sign.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "american-sign": {
+      "chunks": [
+        "american-sign"
+      ],
+      "assets": [
+        "american-sign.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}

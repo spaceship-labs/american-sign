@@ -3,8 +3,8 @@ const settings = {
   state: {
     frontity: {
       url: "https://test.frontity.org",
-      title: "Test Frontity Blog",
-      description: "WordPress installation for Frontity development",
+      title: "americansign",
+      description: "americansign",
     },
   },
   packages: [
@@ -14,15 +14,10 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/"],
-            ["Nature", "/category/nature/"],
-            ["Travel", "/category/travel/"],
-            ["Japan", "/tag/japan/"],
-            ["About Us", "/about-us/"],
+            ["acerca", "/about"],
+            ["servicios", "/services"],
+            ["contacto", "/contact"],
           ],
-          featured: {
-            showOnList: false,
-            showOnPost: false,
-          },
         },
       },
     },

@@ -1,23 +1,14 @@
-import React from "react";
-
-const Root = () => {
-  return (
-    <>
-      You can edit your package in:
-      <pre>packages\americansign-theme\src\index.js</pre>
-    </>
-  );
-};
+import Theme from "./components";
 
 export default {
   name: "americansign-theme",
   roots: {
-    theme: Root
+    theme: Theme,
   },
   state: {
-    theme: {}
+    theme: {},
   },
   actions: {
-    theme: {}
-  }
+    theme: {},
+  },
 };
