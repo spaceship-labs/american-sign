@@ -3,7 +3,6 @@ import { connect, Head, Global, css } from "frontity";
 import Title from "./title";
 import Header from "./header";
 import Home from "./home";
-import Footer from "./footer";
 
 const Theme = ({ state }) => {
   const data = state.source.get(state.router.link);
@@ -19,7 +18,6 @@ const Theme = ({ state }) => {
 
       <Header />
       <Home />
-      <Footer />
     </>
   );
 };

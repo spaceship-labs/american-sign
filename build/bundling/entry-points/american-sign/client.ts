@@ -13,28 +13,3 @@ const packages = {
 
 export default client({ packages });
 
-if (module["hot"]) {
-  module["hot"].accept(
-    [
-      "@frontity/core/src/client",
-      "americansign-theme/src/index",
-      "@frontity/wp-source/src/index",
-      "@frontity/tiny-router/src/index",
-      "@frontity/html2react/src/index",
-    ],
-    () => {
-      const client = require("@frontity/core/src/client").default;
-      const americansign_theme_default = require("americansign-theme/src/index").default;
-      const frontity__wp_source_default = require("@frontity/wp-source/src/index").default;
-      const frontity__tiny_router_default = require("@frontity/tiny-router/src/index").default;
-      const frontity__html2react_default = require("@frontity/html2react/src/index").default;
-      const packages = {
-        americansign_theme_default,
-        frontity__wp_source_default,
-        frontity__tiny_router_default,
-        frontity__html2react_default,
-      };
-      client({ packages });
-    }
-  );
-}
