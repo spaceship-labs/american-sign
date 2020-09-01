@@ -2,7 +2,7 @@ const settings = {
   name: "american-sign",
   state: {
     frontity: {
-      url: "https://test.frontity.org",
+      url: "https://americansign.emmanuelyupit.vercel.app/",
       title: "americansign",
       description: "americansign",
     },

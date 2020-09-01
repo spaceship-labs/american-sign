@@ -5,7 +5,7 @@ import Image from "@frontity/components/image";
 const ServiceCard = ({ title, src }) => (
   <Container>
     <ImageContainer>
-      <Image src={src} alt="" />
+      <ServiceImage src={src} alt="" />
       <Content>
         <p>{title}</p>
         <Button>ver más</Button>
@@ -55,10 +55,6 @@ const ImageContainer = styled.div`
   position: relative;
   display: block;
   height: 100%;
-  & > img {
-    height: 100%;
-    width: 100%;
-  }
 `;
 
 const Button = styled.button`
@@ -71,4 +67,9 @@ const Button = styled.button`
   outline: none;
   cursor: pointer;
   text-transform: uppercase;
+`;
+
+const ServiceImage = styled(Image)`
+  height: 100%;
+  width: 100%;
 `;

@@ -2,29 +2,56 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.1",
-  "hash": "1b02e99a2af48668f067",
+  "hash": "702cefeee51fe4388bd6",
   "publicPath": "/static/",
   "outputPath": "D:\\emman\\Documents\\spaceshiplabs\\american-sign\\build\\static",
   "assetsByChunkName": {
-    "american-sign": "american-sign.module.97b0255542f577aeb80b.js"
+    "american-sign": [
+      "american-sign.module.js",
+      "american-sign.c633f1af798aa3669690.hot-update.js"
+    ]
   },
   "assets": [
     {
-      "name": "american-sign.module.97b0255542f577aeb80b.js",
-      "size": 313703,
+      "name": "american-sign.c633f1af798aa3669690.hot-update.js",
+      "size": 8553,
       "chunks": [
-        0
+        "american-sign"
       ],
       "chunkNames": [
         "american-sign"
       ],
       "info": {
+        "hotModuleReplacement": true,
         "immutable": true
       },
       "emitted": false
     },
     {
-      "name": "images/Aplicaciones-0a6007ad73f5b4c54c7d00b484f9115e.jpg",
+      "name": "american-sign.module.js",
+      "size": 7486043,
+      "chunks": [
+        "american-sign"
+      ],
+      "chunkNames": [
+        "american-sign"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "c633f1af798aa3669690.hot-update.json",
+      "size": 55,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "images/Aplicaciones.jpg",
       "size": 39243,
       "chunks": [],
       "chunkNames": [],
@@ -32,7 +59,15 @@
       "emitted": false
     },
     {
-      "name": "images/CajaDeluz-19c50329d47fccec7e0d9ab39e9d04ec.jpg",
+      "name": "images/Asur.svg",
+      "size": 7306,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/CajaDeluz.jpg",
       "size": 46850,
       "chunks": [],
       "chunkNames": [],
@@ -40,7 +75,15 @@
       "emitted": false
     },
     {
-      "name": "images/Corte-Laser-8e8c256b55bf928113c7ccac23d2dd8f.jpg",
+      "name": "images/Catalogo.jpg",
+      "size": 149170,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Corte-Laser.jpg",
       "size": 88411,
       "chunks": [],
       "chunkNames": [],
@@ -48,7 +91,7 @@
       "emitted": false
     },
     {
-      "name": "images/DecoPrint-6cd889f9e6d5a1dfd446e57681d97884.jpg",
+      "name": "images/DecoPrint.jpg",
       "size": 59809,
       "chunks": [],
       "chunkNames": [],
@@ -56,7 +99,7 @@
       "emitted": false
     },
     {
-      "name": "images/Displays-bd481ba98ecb9804aabfc7c8d405fed2.jpg",
+      "name": "images/Displays.jpg",
       "size": 21260,
       "chunks": [],
       "chunkNames": [],
@@ -64,7 +107,31 @@
       "emitted": false
     },
     {
-      "name": "images/G&C-b8f9aaf18800b64042ffd2f580835ec3.jpg",
+      "name": "images/Entrega.svg",
+      "size": 2512,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Envios.svg",
+      "size": 3898,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/FacilidadPago.svg",
+      "size": 914,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/G&C.jpg",
       "size": 66522,
       "chunks": [],
       "chunkNames": [],
@@ -72,7 +139,15 @@
       "emitted": false
     },
     {
-      "name": "images/Impresion-Digital-f410b0cb8213d46d955c176b05ab14a8.jpg",
+      "name": "images/HP-Wallart.jpg",
+      "size": 264338,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Impresion-Digital.jpg",
       "size": 32717,
       "chunks": [],
       "chunkNames": [],
@@ -80,7 +155,31 @@
       "emitted": false
     },
     {
-      "name": "images/Senalizacion-9485ac1cf34d98a75d40da45e49aec0e.jpg",
+      "name": "images/Instalacion.svg",
+      "size": 1541,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Isotipo.svg",
+      "size": 1302,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Loreal.svg",
+      "size": 3205,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Senalizacion.jpg",
       "size": 43956,
       "chunks": [],
       "chunkNames": [],
@@ -88,7 +187,23 @@
       "emitted": false
     },
     {
-      "name": "images/americansign-logo-cd0a1709d83c54881d5491f2808021c4.svg",
+      "name": "images/Ultrafemme.png",
+      "size": 6163,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/Xcaret.svg",
+      "size": 13237,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/americansign-logo.svg",
       "size": 15944,
       "chunks": [],
       "chunkNames": [],
@@ -96,8 +211,24 @@
       "emitted": false
     },
     {
-      "name": "images/camionetas-2-99ace19349cbb718883377ea685698b0.jpg",
+      "name": "images/camionetas-2.jpg",
       "size": 55352,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/mayakoba.png",
+      "size": 7205,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/ultramarlogo.png",
+      "size": 7628,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -108,10 +239,11 @@
   "entrypoints": {
     "american-sign": {
       "chunks": [
-        0
+        "american-sign"
       ],
       "assets": [
-        "american-sign.module.97b0255542f577aeb80b.js"
+        "american-sign.module.js",
+        "american-sign.c633f1af798aa3669690.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -120,10 +252,11 @@
   "namedChunkGroups": {
     "american-sign": {
       "chunks": [
-        0
+        "american-sign"
       ],
       "assets": [
-        "american-sign.module.97b0255542f577aeb80b.js"
+        "american-sign.module.js",
+        "american-sign.c633f1af798aa3669690.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

@@ -19,7 +19,7 @@ const MainContainer = styled.div`
   display: flex;
   flex: 1;
   height: 400px;
-  & > div:nth-child(1) {
+  & > div:nth-of-type(1) {
     display: flex;
     flex-direction: column;
     flex-basis: 30%;
