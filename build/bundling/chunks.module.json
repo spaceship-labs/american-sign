@@ -2,34 +2,16 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.1",
-  "hash": "702cefeee51fe4388bd6",
+  "hash": "1a020755929c23c7d723",
   "publicPath": "/static/",
   "outputPath": "D:\\emman\\Documents\\spaceshiplabs\\american-sign\\build\\static",
   "assetsByChunkName": {
-    "american-sign": [
-      "american-sign.module.js",
-      "american-sign.c633f1af798aa3669690.hot-update.js"
-    ]
+    "american-sign": "american-sign.module.js"
   },
   "assets": [
     {
-      "name": "american-sign.c633f1af798aa3669690.hot-update.js",
-      "size": 8553,
-      "chunks": [
-        "american-sign"
-      ],
-      "chunkNames": [
-        "american-sign"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "american-sign.module.js",
-      "size": 7486043,
+      "size": 7486119,
       "chunks": [
         "american-sign"
       ],
@@ -37,17 +19,6 @@
         "american-sign"
       ],
       "info": {},
-      "emitted": false
-    },
-    {
-      "name": "c633f1af798aa3669690.hot-update.json",
-      "size": 55,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
       "emitted": false
     },
     {
@@ -242,8 +213,7 @@
         "american-sign"
       ],
       "assets": [
-        "american-sign.module.js",
-        "american-sign.c633f1af798aa3669690.hot-update.js"
+        "american-sign.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -255,8 +225,7 @@
         "american-sign"
       ],
       "assets": [
-        "american-sign.module.js",
-        "american-sign.c633f1af798aa3669690.hot-update.js"
+        "american-sign.module.js"
       ],
       "children": {},
       "childAssets": {}

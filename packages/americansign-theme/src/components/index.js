@@ -20,7 +20,7 @@ const Theme = ({ state }) => {
       <Header />
       <Home />
       <Footer />
-      {JSON.stringify(state)}
+      {JSON.stringify(state.router.link)}
       {}
     </>
   );
