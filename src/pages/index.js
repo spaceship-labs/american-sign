@@ -6,7 +6,9 @@ import HomeServices from '../components/HomeServices';
 import ShippingBar from '../components/Shippingbar';
 import CoverWithContent from '../components/WallSuiteCover';
 import HomeGallery from '../components/HomeGallery';
-
+import BlackBrands from '../components/BlackBrands';
+import DividedCover from '../components/DividedCover';
+import Footer from '../components/Footer';
 export default function Home() {
   return <Layout>
     <Header />
@@ -15,6 +17,8 @@ export default function Home() {
     <ShippingBar />
     <CoverWithContent />
     <HomeGallery />
-    Hello world!2
+    <BlackBrands />
+    <DividedCover />
+    <Footer />
   </Layout>
 }
