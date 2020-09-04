@@ -119,5 +119,13 @@ module.exports = {
           'prismic-typepaths---gatsby-source-prismic-test-site',
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.svg$/,// See below to configure properly
+        }
+      }
+    }
   ],
 }
