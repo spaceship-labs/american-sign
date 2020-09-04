@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import Header from "../components/Header"
 import Banner from "../components/Banner"
 import WhyUsBar from "../components/WhyUsBar"
+import WhoAreWe from "../components/WhoAreWe"
 
 export default function Acerca() {
   const headerOptions = {
@@ -19,6 +20,7 @@ export default function Acerca() {
       <Header />
       <Banner {...headerOptions} />
       <WhyUsBar />
+      <WhoAreWe />
       Hello world!G
     </Layout>
   )
