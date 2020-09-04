@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // layout with global css
-const defaultStyles = {
-  backgroundColor: "#f2f2f2"
-};
+const defaultStyles = (PageBg) => ({
+  backgroundColor: PageBg
+});
 
-export default function Layout({ children }) {
-  return <div style={defaultStyles}>{children}</div>
+export default function Layout({ children, PageBg = "#f2f2f2" }) {
+  return <div style={defaultStyles(PageBg)}>{children}</div>
 }

@@ -30,7 +30,7 @@ const Header = () => {
               <NavLink href="#">Servicios</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">Contacto</NavLink>
+              <NavLink href="/contact">Contacto</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
