@@ -8,18 +8,19 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
-      resolve: 'gatsby-source-prismic',
+      resolve: "gatsby-source-prismic",
       options: {
         // The name of your prismic.io repository. This is required.
         // Example: 'gatsby-source-prismic-test-site' if your prismic.io address
         // is 'gatsby-source-prismic-test-site.prismic.io'.
-        repositoryName: 'https://americansign.cdn.prismic.io/api/v2',
+        repositoryName: "https://americansign.cdn.prismic.io/api/v2",
 
         // An API access token to your prismic.io repository. This is optional.
         // You can generate an access token in the "API & Security" section of
         // your repository settings. Setting a "Callback URL" is not necessary.
         // The token will be listed under "Permanent access tokens".
-        accessToken: 'MC5YMUZ3OVJBQUFHWUlURGF6.MRtFW--_ve-_vQjvv704Zmo6YHzvv73vv70z77-977-9S--_ve-_ve-_vWPvv71B77-977-9A--_ve-_ve-_vQ',
+        accessToken:
+          "MC5YMUZ3OVJBQUFHWUlURGF6.MRtFW--_ve-_vQjvv704Zmo6YHzvv73vv70z77-977-9S--_ve-_ve-_vWPvv71B77-977-9A--_ve-_ve-_vQ",
 
         // If you provide a release ID, the plugin will fetch data from Prismic
         // for a specific release. A Prismic release is a way to gather a
@@ -36,7 +37,7 @@ module.exports = {
         // provided to the function, as seen below. This allows you to use
         // different link resolver logic for each field if necessary.
         // See: https://prismic.io/docs/javascript/query-the-api/link-resolving
-        linkResolver: ({ node, key, value }) => (doc) => {
+        linkResolver: ({ node, key, value }) => doc => {
           // Your link resolver
         },
 
@@ -58,7 +59,7 @@ module.exports = {
           type,
           element,
           content,
-          children,
+          children
         ) => {
           // Your HTML serializer
         },
@@ -67,13 +68,13 @@ module.exports = {
         // Gatsby. This is required.
         schemas: {
           // Your custom types mapped to schemas
-          Main: require('./src/schemas/Main.json'),
+          Main: require("./src/schemas/Main.json"),
         },
 
         // Set a default language when fetching documents. The default value is
         // '*' which will fetch all languages.
         // See: https://prismic.io/docs/javascript/query-the-api/query-by-language
-        lang: '*',
+        lang: "*",
 
         // Add the Prismic Toolbar script to the site. Defaults to false.
         // Set to "legacy" if your repository requires the older toolbar script.
@@ -95,8 +96,8 @@ module.exports = {
         // defaults set by Prismic.
         // See: https://docs.imgix.com/apis/url
         imageImgixParams: {
-          auto: 'compress,format',
-          fit: 'max',
+          auto: "compress,format",
+          fit: "max",
           q: 50,
         },
 
@@ -116,16 +117,16 @@ module.exports = {
         // the prefix.
         // This defaults to 'prismic-typepaths---${repositoryName}'.
         typePathsFilenamePrefix:
-          'prismic-typepaths---gatsby-source-prismic-test-site',
+          "prismic-typepaths---gatsby-source-prismic-test-site",
       },
     },
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /\.svg$/,// See below to configure properly
-        }
-      }
-    }
+          include: /\.svg$/, // See below to configure properly
+        },
+      },
+    },
   ],
 }
