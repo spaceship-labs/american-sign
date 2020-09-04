@@ -2,18 +2,19 @@ import React from 'react';
 
 import { Container } from 'reactstrap';
 
-const Cover = ({ children, bgImage, pt = "30vh", color = "#fff" }) => (
+const Cover = ({ children, bgImage, pt = "30vh", color = "#fff", bgColor = "#f2f2f2" }) => (
 
-  <Container fluid style={CoverStyle(bgImage, pt, color)}>
+  <Container fluid style={CoverStyle(bgImage, pt, color, bgColor)}>
     {children}
   </Container>
 );
 
-const CoverStyle = (bgImage, pt, color) => ({
+const CoverStyle = (bgImage, pt, color, bgColor) => ({
   paddingTop: pt,
   paddingBottom: pt,
   color: color,
   minHeight: "70vh",
+  backgroundColor: bgColor,
   backgroundImage: `url(${bgImage})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",

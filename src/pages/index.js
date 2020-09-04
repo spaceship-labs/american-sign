@@ -6,32 +6,21 @@ import HomeServices from "../components/HomeServices"
 import ShippingBar from "../components/Shippingbar"
 import CoverWithContent from "../components/WallSuiteCover"
 import HomeGallery from "../components/HomeGallery"
-
+import BlackBrands from "../components/BlackBrands"
+import DividedCover from "../components/DividedCover"
+import Footer from "../components/Footer"
 export default function Home() {
-  const headerOptions = {
-    contentText: (
-      <>
-        <h1>
-          Tu imagen merece <strong>lo mejor</strong>
-        </h1>
-        <p>
-          Crea una apariencia de alta definición con la última tecnología en
-          señalización.
-        </p>
-      </>
-    ),
-    buttonText: " VER PRODUCTOS ",
-  }
-
   return (
     <Layout>
       <Header />
-      <Banner {...headerOptions} />
+      <Banner />
       <HomeServices />
       <ShippingBar />
       <CoverWithContent />
       <HomeGallery />
-      Hello world!2
+      <BlackBrands />
+      <DividedCover />
+      <Footer />
     </Layout>
   )
 }
