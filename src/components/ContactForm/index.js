@@ -9,17 +9,17 @@ const ContactForm = () => (
         <Row>
           <Col lg={6} sm={12}>
             <FormGroup>
-              <Input style={InputStyle} type="text" name="Name" id="exampleEmail" placeholder="Nombre" />
+              <Input style={InputStyle} type="text" name="Name" id="Name" placeholder="Nombre" />
             </FormGroup>
           </Col>
           <Col lg={6} sm={12}>
             <FormGroup>
-              <Input style={InputStyle} type="text" name="Phone" id="exampleEmail" placeholder="Teléfono" />
+              <Input style={InputStyle} type="text" name="Phone" id="Phone" placeholder="Teléfono" />
             </FormGroup>
           </Col>
         </Row>
         <FormGroup>
-          <Input style={InputStyle} type="email" name="Email" id="examplePassword" placeholder="E-mail" />
+          <Input style={InputStyle} type="email" name="Email" id="email" placeholder="E-mail" />
         </FormGroup>
         <Label>¿Necesita asistencia de diseño gráfico?</Label>
         <FormGroup check>
