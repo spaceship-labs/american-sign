@@ -4,13 +4,19 @@ import { Container, Row, Col } from "reactstrap"
 import SectionTitle from "../SectionTitle"
 
 export default function WhoAreWe() {
+  const ContainerStyle = {
+    backgroundColor: "#ebeded",
+    paddingTop: "15vh"
+
+  };
   return (
     <Container fluid>
       <Row>
-        <Col lg={6}>
+        <Col lg={6} className="pl-0 pr-0">
           <img width="100%" src={Dsign} alt="service" />
         </Col>
-        <Col lg={6} style={{ backgroundColor: "#ebeded" }}>
+        <Col lg={6} style={ContainerStyle}>
+
           <SectionTitle>
             <h2>¿Quiénes somos?</h2>
           </SectionTitle>
@@ -33,3 +39,4 @@ export default function WhoAreWe() {
     </Container>
   )
 }
+
